@@ -9,7 +9,8 @@ public final class AttributeAdmin extends JavaPlugin {
         // Plugin startup logic
         getCommand("attributeadmin").setExecutor(new AACommand());
         getCommand("attributefix").setExecutor(new AFCommand());
-
+        getCommand("attributemodifiers").setExecutor(new AMCommand());
+        getCommand("attributereset").setExecutor(new ARCommand());
     }
 
     @Override

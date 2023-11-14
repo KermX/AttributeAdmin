@@ -9,7 +9,17 @@ commands:
     permission: attributeadmin.admin
     permission-message: Only admins can use this command!
   attributefix:
-    description: resets attack speed and damage to vanilla values
+    description: fixes attack speed and damage to vanilla values
     usage: /attributefix <username>
+    permission-message: Only admins can use this command!
+    permission: attributeadmin.admin
+  attributereset:
+    description: resets attack speed and damage to vanilla values
+    usage: /attributereset <username>
+    permission-message: Only admins can use this command!
+    permission: attributeadmin.admin
+  attributemodifiers:
+    description: lists attribute modifiers for player
+    usage: /attributemodifiers <username>
     permission-message: Only admins can use this command!
     permission: attributeadmin.admin
