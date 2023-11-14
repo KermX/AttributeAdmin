@@ -1,0 +1,4 @@
+name: AttributeAdmin
+version: '${project.version}'
+main: me.kermx.attributeadmin.AttributeAdmin
+api-version: '1.20'
