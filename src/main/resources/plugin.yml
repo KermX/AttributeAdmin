@@ -2,3 +2,14 @@ name: AttributeAdmin
 version: '${project.version}'
 main: me.kermx.attributeadmin.AttributeAdmin
 api-version: '1.20'
+commands:
+  attributeadmin:
+    description: Check player attributes
+    usage: /attributeadmin <username>
+    permission: attributeadmin.admin
+    permission-message: Only admins can use this command!
+  attributefix:
+    description: resets attack speed and damage to vanilla values
+    usage: /attributefix <username>
+    permission-message: Only admins can use this command!
+    permission: attributeadmin.admin

@@ -7,6 +7,8 @@ public final class AttributeAdmin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        getCommand("attributeadmin").setExecutor(new AACommand());
+        getCommand("attributefix").setExecutor(new AFCommand());
 
     }
 
